@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+    .full-contain{
+        width: 100%;
+        height: auto;
+        overflow-x: clip;
+    }
+}

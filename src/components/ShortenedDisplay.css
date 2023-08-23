@@ -1,0 +1,121 @@
+.printed-div{
+    display: flex;
+    width: 700px;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+  
+}
+.btn-div3{
+    width: 800px;
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    font-family: 'poppins';
+    font-size: 14px;
+    color:#25CDCE;
+
+}
+.falseBtn{
+    margin-left: 10px;
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: #25CDCE;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+.falseBtn:hover{
+    cursor: pointer;
+    height: 33px;
+    width: 73px;
+    background-color: #9BE3E2;
+}
+.trueBtn {
+    margin-left: 10px;
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: #3A3053;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+}
+.trueBtn:hover {
+    cursor: pointer;
+    height: 33px;
+    width: 73px;
+    background-color: #3A3053;
+}
+.link-div{
+        width: 400px;
+        background-color: transparent;
+        height: 50px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        font-family: 'poppins';
+        font-size: 14px;
+        
+}
+
+.short-container{
+    width: 700px;
+    
+}
+@media (max-width: 768px){
+    .printed-div{
+        width:auto;
+        flex-direction: column;
+        height: auto;
+    }
+    .short-container{
+        width: 90%;
+        align-self: center;
+    }
+    .link-div{
+        width: 95%;
+        padding: 0;
+        border-bottom: 1px solid grey;
+    }
+    .btn-div3{
+        width: 95%;
+        flex-direction: column;
+        padding-top: 1rem;
+        height: auto;
+        
+    }
+    .btn-div3 p{
+        width: 95%;
+        height: auto;
+        margin-bottom: 1rem;
+        
+     }
+     .btn-div3 button{
+        width: 95%;
+        margin-bottom: 1rem;
+     }
+}
+
+@font-face {
+
+    font-family: 'Poppins-bold';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+
+}
